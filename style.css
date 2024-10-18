@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(7,34,39);
+}
+
+.img_logo{
+    width: 20%;
+}
+.header{
+    overflow: hidden;
+    background-color: #35858b;
+    padding: 20px 10px;
+}
+
+.topnav{
+    position: relative;
+
+    overflow: hidden;
+    
+    border-radius: 10px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+}
+.topnav a:not(:first-child){
+    float: right;
+}
+
+
+.topnav a:hover{
+  /*  background-color: rgba(0,0,0,0.5);*/
+    color: blue;
+    border-bottom: 2px solid orange;
+
+}
+
+.topnav a:active{
+    color: white;
+    border-bottom: 5px solid orange;
+    margin-left: 5px;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.middle{
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(to top right ,rgba(0,0,0,0.4),rgba(0,0,00.3)) ,url(first-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    
+}
+.first-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 300;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.search-form {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px; /* set the width of the input field */
+  }
+  
+  .search-form button {
+    padding: 10px 20px;
+    background-color: #4FBDBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .head1{
+    font-size: 50px;
+    text-align: center;
+    color: #aefeff;
+  }
+
+  .book{
+    
+    height: 60vh;
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #4FBDBA;
+    box-shadow: 0 15px 40px rgba(0,0,0,0);
+    transition-duration: 0.4s;
+    font-size: 25px;
+    font-family: 'Julee', cursive;
+  }
+
+  .book-img{
+    width: 200px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .read1{
+    background-color: #154447;
+    height: 60vh;
+    width: 49%;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #4FBDBA;
+    box-shadow: 0 15px 40px rgba(0,0,0,0);
+    transition-duration: 0.4s;
+    font-size: 25px;
+    font-family: 'Julee', cursive;
+  }
+
+  .head2{
+    color: white;
+  }
+
+  .read2{
+    background-color: #154447;
+    height: 60vh;
+    width: 50%;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #4FBDBA;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    transition-duration: 0.4s;
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+    color: #aefeff;
+  }
+  .link{
+    text-decoration: underline;
+    color: #4FBDBA;
+  }
+
+.sign-in-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .sign-in-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-box input[type="email"],
+  .sign-in-box input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-box button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #154447;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .sign-up-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .sign-up-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sign-up-box input[type="text"],
+  .sign-up-box input[type="email"],
+  .sign-up-box input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-box button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .lower2{
+    margin-top: 50px;
+  }
+  
+  .row{
+    background-color: #3a8381;
+  }
